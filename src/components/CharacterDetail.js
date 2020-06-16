@@ -6,11 +6,15 @@ const CharacterDetail = (props) => {
 
   return(
     <div>
+      <br/>
       <img src={props.character.image}/>
       <h3>{props.character.name}</h3>
-      <br/>
-      <p>{props.character.house}</p>
-
+      <p>Species: {props.character.species}</p>
+      <p>House: {props.character.house}</p>
+      <h3>Wand Details</h3>
+      <p>Wood: {props.character.wand.wood}</p>
+      <p>Core: {props.character.wand.core}</p>
+      <p>Length: {props.character.wand.length}"</p>
     </div>
   )
 }
