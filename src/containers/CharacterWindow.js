@@ -27,7 +27,7 @@ class CharacterWindow extends Component {
 
   render(){
 
-    const selectedCharacter = this.state.character.find(character => {
+    const selectedCharacter = this.state.characters.find(character => {
       return character.name === this.state.selectedCharacterName
     })
 
