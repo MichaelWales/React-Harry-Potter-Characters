@@ -8,6 +8,7 @@ class CharacterWindow extends Component {
       <div>
         <h2>Harry Potter Characters!</h2>
         <CharacterSelect/>
+        <CharacterDetail/>
       </div>
     )
   }
